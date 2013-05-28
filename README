@@ -1,6 +1,17 @@
 Guake README file
 =================
 
+ABOUT THIS FORK
+~~~~~
+The idea is to add custom user command menu to the Guake terminal.
+So Guake will be customizible by user plugins. 
+TODO:
+	- add menu widget, to select command.
+	- add support of the custom json or yaml config for menu.
+	- add plugin manager.
+	- add some plugin examlpes.
+
+
 INTRO
 ~~~~~
 

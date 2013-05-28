@@ -548,6 +548,8 @@ class Guake(SimpleGladeApp):
         self.get_widget('image1').set_from_file(ipath)
         ipath = pixmapfile('add_tab.png')
         self.get_widget('image2').set_from_file(ipath)
+        ipath = pixmapfile('custom.png')
+        self.get_widget('image3').set_from_file(ipath)
 
         # important widgets
         self.window = self.get_widget('window-root')
@@ -1329,6 +1331,16 @@ class Guake(SimpleGladeApp):
         pagepos = self.notebook.get_current_page()
         self.selected_tab = self.tabs.get_children()[pagepos]
         return pagepos
+
+    def apply_custom_command(self, button):
+        """Show custom commands menu.
+        TODO:
+            - reading menu and command from yaml file in (~/.guake) dir
+            - show comfortable menu
+        """
+        print('NIY.NIY.NIY.NIY.NIY.NIY.')
+        pass
+
 
 def main():
     """Parses the command line parameters and decide if dbus methods

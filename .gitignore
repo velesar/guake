@@ -35,3 +35,13 @@ m4/lt~obsolete.m4
 m4/gnome-doc-utils.m4
 py-compile
 debian
+/src/.idea/encodings.xml
+/src/.idea/misc.xml
+/src/.idea/modules.xml
+/src/.idea/.name
+/src/.idea/other.xml
+/src/.idea/scopes/scope_settings.xml
+/src/.idea/src.iml
+/src/.idea/testrunner.xml
+/src/.idea/vcs.xml
+/src/.idea/workspace.xml
